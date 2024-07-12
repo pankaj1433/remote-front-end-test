@@ -8,7 +8,7 @@ const PropertyListing = () => {
     const { properties, loading, error } = useGetProperties();
     
     if(loading)
-        return <div>...Loading</div>;
+        return <div>Loading...</div>;
     if(error)
         return <div>OOPS! Something went wrong</div>
 
